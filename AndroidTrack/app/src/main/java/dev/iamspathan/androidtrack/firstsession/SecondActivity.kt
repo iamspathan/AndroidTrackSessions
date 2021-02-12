@@ -1,8 +1,9 @@
-package dev.iamspathan.androidtrack
+package dev.iamspathan.androidtrack.firstsession
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import dev.iamspathan.androidtrack.R.layout
 
 class SecondActivity : AppCompatActivity() {
 
@@ -10,7 +11,7 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(layout.activity_second)
         Log.d(TAG, "OnCreate")
     }
 

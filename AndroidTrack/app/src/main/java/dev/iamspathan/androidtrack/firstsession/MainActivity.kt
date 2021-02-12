@@ -1,4 +1,4 @@
-package dev.iamspathan.androidtrack
+package dev.iamspathan.androidtrack.firstsession
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
+import dev.iamspathan.androidtrack.R.id
+import dev.iamspathan.androidtrack.R.layout
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,13 +20,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(layout.activity_main)
 
-        button = findViewById(R.id.nextButton)
+        button = findViewById(id.nextButton)
 
         button.setOnClickListener {
 
-            val intent = Intent(this,SecondActivity::class.java)
+            val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
 
@@ -40,8 +42,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "User Logged Out", Toast.LENGTH_SHORT).show()
         }
     }
-
-
 
     override fun onStart() {
         super.onStart()
