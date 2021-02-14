@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdsession.RelativeLayoutDemo">
+
+
+    <TextView
+        android:id="@+id/firstChild"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="CHILD"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:background="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/SecondChild"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="CHILD"
+        android:layout_toLeftOf="@id/firstChild"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/thirdChild"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="CHILD"
+        android:layout_toRightOf="@id/firstChild"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background" />
+
+    <TextView
+        android:id="@+id/fourthChild"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="CHILD"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/firstChild"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:background="@color/design_default_color_secondary_variant" />
+    <TextView
+        android:id="@+id/fifthChild"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="CHILD"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_above="@id/firstChild"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:background="#4285F4" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_alignParentRight="true"
+        android:id="@+id/submitButton"></Button>
+
+    <CheckBox
+        android:id="@+id/termsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I accepted terms &amp; Condition."
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp" />
+
+
+
+</RelativeLayout>
