@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTrack">
-        <activity android:name=".fourthsession.NavActivity">
+        <activity android:name=".fifthsession.CounterGame">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".fourthsession.NavActivity">
         </activity>
         <activity android:name=".thirdsession.ListViewActivity">
             <intent-filter>
@@ -23,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".thirdsession.RelativeLayoutDemo"></activity>
+        <activity android:name=".thirdsession.RelativeLayoutDemo" />
         <activity android:name=".secondsession.SuccessLoginActivity" />
         <activity android:name=".secondsession.ViewLayoutActivity" />
         <activity android:name=".firstsession.SecondActivity" />

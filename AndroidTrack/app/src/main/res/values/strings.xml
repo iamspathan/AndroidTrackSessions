@@ -2,4 +2,7 @@
     <string name="app_name">AndroidTrack</string>
     <string name="open">OPEN</string>
     <string name="close">CLOSE</string>
+    <string name="count_init_value">0</string>
+    <string name="inc">INCREMENT</string>
+    <string name="dec">DECREMENT</string>
 </resources>
