@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTrack">
-        <activity android:name=".fifthsession.CounterGame">
+        <activity android:name=".seventhsession.RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fourthsession.NavActivity">
+        <activity android:name=".sixthsession.FragmentDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".fifthsession.CounterGame"></activity>
+        <activity android:name=".fourthsession.NavActivity" />
         <activity android:name=".thirdsession.ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

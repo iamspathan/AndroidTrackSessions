@@ -5,4 +5,7 @@
     <string name="count_init_value">0</string>
     <string name="inc">INCREMENT</string>
     <string name="dec">DECREMENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">First Fragment</string>
+    <string name="hello_second_fragment">Second Fragment</string>
 </resources>
