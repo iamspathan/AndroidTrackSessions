@@ -2,7 +2,7 @@
 <manifest package="dev.iamspathan.androidtrack"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,12 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTrack">
-        <activity android:name=".seventhsession.RecyclerViewActivity">
+        <activity android:name=".eighthsession.NotificationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".seventhsession.RecyclerViewActivity">
         </activity>
         <activity android:name=".sixthsession.FragmentDemoActivity">
             <intent-filter>
@@ -25,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fifthsession.CounterGame"></activity>
+        <activity android:name=".fifthsession.CounterGame" />
         <activity android:name=".fourthsession.NavActivity" />
         <activity android:name=".thirdsession.ListViewActivity">
             <intent-filter>
