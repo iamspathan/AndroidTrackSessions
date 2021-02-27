@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ninthsession.MediaPlayerDemo">
+
+
+    <Button
+        android:id="@+id/startMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START MUSIC" />
+
+
+    <TextView
+        android:id="@+id/logText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:text="SERVICE STARTED/STOP" />
+
+
+    <Button
+        android:id="@+id/stopMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP MUSIC" />
+
+
+
+
+
+
+</LinearLayout>
