@@ -11,33 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTrack">
-        <activity android:name=".eighthsession.NotificationActivity">
-        </activity>
-
-        <activity android:name=".ninthsession.MediaPlayerDemo">
+        <activity android:name=".workmanagersession.WorkManagerDemoNew">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".seventhsession.RecyclerViewActivity">
+        <activity android:name=".eighthsession.NotificationActivity"></activity>
+        <activity android:name=".tenthsession.WorkManagerDemo">
         </activity>
+        <activity android:name=".ninthsession.MediaPlayerDemo"></activity>
+        <activity android:name=".seventhsession.RecyclerViewActivity"></activity>
         <activity android:name=".sixthsession.FragmentDemoActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".fifthsession.CounterGame" />
         <activity android:name=".fourthsession.NavActivity" />
         <activity android:name=".thirdsession.ListViewActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".thirdsession.RelativeLayoutDemo" />
         <activity android:name=".secondsession.SuccessLoginActivity" />
